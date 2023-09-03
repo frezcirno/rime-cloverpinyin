@@ -8,7 +8,7 @@ numbered_mode_switch:
     - { when: always, accept: Control+Shift+5, toggle: ascii_punct }
     - { when: always, accept: Control+Shift+6, toggle: full_shape }
     - { when: always, accept: Control+Shift+exclam, select: .next }
-    - { when: always, accept: Control+Shift+at, toggle: zh_simp_s2t }
+    # - { when: always, accept: Control+Shift+at, toggle: zh_simp_s2t }
     - { when: always, accept: Control+Shift+numbersign, toggle: emoji_suggestion }
     - { when: always, accept: Control+Shift+dollar, toggle: symbol_support }
     - { when: always, accept: Control+Shift+percent, toggle: ascii_punct }
@@ -20,8 +20,8 @@ windows_compatible_mode_switch:
     # - { when: always, accept: Shift+space, toggle: full_shape }
     - { when: always, accept: Control+comma, toggle: ascii_punct }
     - { when: always, accept: Control+period, toggle: ascii_punct }
-    - { when: always, accept: Control+Shift+f, toggle: zh_simp_s2t }
-    - { when: always, accept: Control+Shift+F, toggle: zh_simp_s2t }
+    # - { when: always, accept: Control+Shift+f, toggle: zh_simp_s2t }
+    # - { when: always, accept: Control+Shift+F, toggle: zh_simp_s2t }
 
 kp_enter_is_return:
   __append:
